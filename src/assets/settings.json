@@ -1,0 +1,40 @@
+{
+    "logging": {
+      "localStorageAppender": {
+        "localStorageKey":"localStorageLogger",
+        "maxMessages": 500,
+        "threshold": "ALL"
+      },
+      "logLevels": [
+        {
+          "loggerName": "root",
+          "logLevel": "ALL"
+        },
+        {
+          "loggerName": "App",
+          "logLevel": "ALL"
+        },
+        {
+          "loggerName": "HomePage",
+          "logLevel": "ALL"
+        },
+        {
+          "loggerName": "AboutPage",
+          "logLevel": "ALL"
+        },
+        {
+          "loggerName": "ContactPage",
+          "logLevel": "ALL"
+        },
+        {
+          "loggerName": "DebugService",
+          "logLevel": "ALL"
+        },
+        {
+          "loggerName": "FirestoreStorageService",
+          "logLevel": "ALL"
+        }
+      ]
+    },
+    "confirmSettingsAreLoaded": "42"
+}
